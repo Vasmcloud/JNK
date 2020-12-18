@@ -80,6 +80,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* That's all, stop editing! Happy publishing. */
+define ('WP_HOME', 'http://54.227.51.164' );
+define ('WP_SITEURL', 'http://54.227.51.164' );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
